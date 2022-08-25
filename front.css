@@ -1,0 +1,91 @@
+body { background-image: url(https://ilmondochetiaspetta.unipr.it/wp-content/uploads/2018/07/informatica_bg-1200x430.jpg);
+}
+
+h1 {
+    background-color: black;
+    color:deepskyblue;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    border-style: double;
+    border-color: ghostwhite;
+}
+
+#primeiro {
+    color:black ;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: deepskyblue;
+}
+
+ol, ul {
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: chocolate;
+
+}
+
+#quarto {
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: deepskyblue;
+
+}
+
+#titulo {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: deepskyblue;
+}
+
+#segundo {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: chocolate ;
+}
+ #texto {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: deepskyblue;
+ }
+
+ img { 
+    
+    border-style: dotted;
+    border-color: white;
+    width: 1000;
+ }
+
+ #edit {
+    background-color: white;
+   border-color: black ;
+ }
+
+ #terceiro {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: deepskyblue;
+
+ }
+
+ #link {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border-style: dotted;
+    border-color: chocolate ;
+ }
