@@ -1,0 +1,50 @@
+#areamenu, navbar { width: 100%;}
+
+/*formatando textos dos elementos do menu*/
+#menu { font-size: 25px;}
+
+/*colocando os itens lado a lado*/
+
+#menu li {
+    display: block;
+    float: left;
+    background-color: blueviolet;
+    margin: 2px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 9px;
+  
+
+}
+
+/*esconder os sub-itens do menu*/
+#menu li ul {display: none;}
+
+/*estilizar links do menu*/
+
+#menu li span, #menu li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*estilo para a passada do mouse*/
+#menu li:hover {
+    background-color: rgb(182, 103, 255);
+    color: rgb(185, 60, 247);
+    cursor: pointer;
+}
+
+/*abrir sub-itens*/
+ #menu li:hover ul {
+ display: block;
+ position: absolute;
+ float: left;
+ z-index: 99;
+ margin-top: 10px;
+ }
+
+ /*posiçao dos sub-itens*/
+ #menu li ul li{
+    float: none;
+ }

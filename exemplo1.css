@@ -1,0 +1,78 @@
+/* 
+* Remover as margens e preenchimentos 
+de todos os elementos
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo uma cor de fundo..*/
+
+body {  background-color: aliceblue;}
+
+/* Estilizando o titulo da pagina..*/
+
+h1 {
+    font-size: 50px;
+    font-family: caladea;
+    max-width: 800px;
+    color: blueviolet;
+    text-transform: capitalize;
+   
+}
+
+/*Estilizando os paragrafos de texto*/
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    width: 80%;
+    line-height: 30px;
+    margin: 15px;
+    
+}
+
+/*Classes para formataçao de texto*/
+
+.texto {
+    text-align: justify;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+ 
+/*definindo uma largura laxima pro
+conteudo da pagina e centralizando ele*/                                                                                                                                                                                                                                                                                                                                                                                  
+div#container {
+    max-width: 800px;
+    margin: auto;
+
+
+}
+
+#primeiro {
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+  
+/*Definindo bordas p tabelas*/
+table, td {
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+/*estilizando a tabela*/
+table {font-size: 28px;}
+ table td, table th { padding: 10px;}
+ table thead tr th {background-color: rgb(183, 0, 255); color: white;}
+
+ /*fortamando cores das linhas da tabela*/
+ table tr:nth-child(even) {background-color: rgb(255, 255, 255);}
+ table tr:nth-child(odd) {background-color: rgb(0, 0, 0); color: white;}
